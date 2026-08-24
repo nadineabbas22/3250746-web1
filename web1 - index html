@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang = en ></html>
+<html lang = en </html>
 <head >
     < meta charset =" UTF-8">
      < meta name = "viewport" content = " width = device- width , initial -scale =1.0">
-     <tittle > my library <</tittle>
+     <tittle > my library </tittle>
      < link rel = "stylesheet" href = " style.css">
 </head>
 
@@ -16,7 +16,7 @@
           < a href =" #books ">books </a> 
           <a href= " # about ">about</a>
           <a href = "#contact ">contact</a>
-          < button id = " darkmodebtn "></button>
+          < button id = " DarkModeBtn "></button>
        </div>
  </nav> 
 </body>
