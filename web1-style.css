@@ -1,0 +1,171 @@
+/* genral settings */
+*{
+    box-sizing : border-box;
+    margin 0;
+    padding : 0;
+
+}
+html
+ { 
+    scroll-behavior : smooth;
+}
+body  
+ {
+font-family : Arial , sans-serif;
+background-color: #f7f5f2;
+color : #333;
+line-height:1.6;
+}
+nav 
+{ 
+    background-color : # 5b4636;
+    color : white;
+
+    display : flex ;
+    justify-content : space-between ;
+    align-iteams: center ;
+
+    padding : 18px 7% ;
+
+    position : sticky ;
+    top:0;
+
+    z-index : 100;
+}
+nav h2 {
+    font-size : 24px;
+}
+.nav-links {
+    display : flex ;
+    align-itema: center;
+    gap : 20px;
+}
+.nav-links a {
+    color : white ;
+    text-decoration : none;
+}
+ #DarkModeBtn {
+    border: none ;
+    background : white ;
+    padding : 7px 18px;
+    border - radius : 20px;
+    cursor : pointer;
+ }
+ .hero {
+    min-height : 500px;
+
+    display : flex ;
+    align-iteams: center ;
+    justify - content : center;
+
+     text - align : center ;
+
+     background: linear-gradient (
+                     rgba(50,35,25,0.65),
+                     rgba(50,35,25,0.65)
+     ),
+     url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w-16008q=80");
+      background-size :cover;
+      background-position: center;
+       
+      color : white ;
+ }
+ .hero-text {
+    max-width: 700px ;
+ }
+ .hero h1 {
+    font-size : 50px ;
+    margin-bottom : 15px;
+ }
+ .hero p {
+    font- size : 19 px ;
+    margin-bottom : 38px ;
+ }
+ .main - btn {
+    diaplay : inline-block;
+    background-color : #c18f65;
+    color : white ;
+     
+    padding :12px 25px ;
+
+    border-redius : 25px ;
+    text-decoration; none ;
+ }
+ .main-Btn:hover{
+    background- color : #a8754e;
+ }
+ /*books section */
+ .book-section {
+    padding : 70px 7% ;
+    text-align : center;
+ }
+ .books-section h2 ,
+ .about h2,
+ .contact h2 {
+    font-size : 32px;
+    margin-bottom : 25px;
+ }
+ /*search */
+ # searchinput {
+   width : 80%;
+   max-width : 500px;
+
+   padding : 13px  18px ;
+   border : 1px soild #ccc;
+   border-redius:25px;
+
+   margin-bottom:25px;
+   font-size:16px ;
+ }
+ /* categories */
+  .categories {
+   margin-bottom:35px;
+
+  }
+  ,category-btn {
+   border:none;
+   background-color :#ddd;
+   padding : 18px 18px;
+   margin:5px;
+   border-redius : 20px ;
+   cursor :pointer;
+  }
+  .category-btn:hover,
+  .category-btn.active{
+    background-color: #5b4636;
+    color : white ;
+  }
+  /* books container*/
+  .books-container {
+   display :grid ;
+   grid -template-columns:
+       repeat (auto-fit,minmax(240px,1fr));
+
+    gap:25px;
+    max-width:1100px;
+    margin : auto;   
+  }
+  /* book card*/
+   
+ .book-card{
+   background-color:white;
+   padding= 25px;
+   border-redius:15px;
+   box-shadow: 0 4px 12px rgba (0,0,0,0.08);
+   transition:transform 0.3;
+ } 
+ .book-card : hover {
+   transform:translateY(-5px);
+
+ }
+ .book-image {
+    font-size : 60px;
+    background-color:#eee4da ;
+    padding: 20px;
+    broder-redius:10px;
+    margin-bottom :15px;
+ }
+ .book-card h3{
+   margin-bottom:5px;
+ }
+ 
