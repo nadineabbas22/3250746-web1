@@ -309,6 +309,90 @@ nav h2 {
 
     background-color: #3e3025;
 
+}/* Footer */
+
+footer {
+
+    background-color: #5b4636;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+/* Dark Mode */
+
+body.dark {
+
+    background-color: #222;
+
+    color: #eee;
+
+}
+
+body.dark .book-card {
+
+    background-color: #333;
+
+}
+
+body.dark #searchInput {
+
+    background-color: #333;
+
+    color: white;
+
+}
+
+body.dark .about {
+
+    background-color: #302a25;
+
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    nav {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+    .nav-links {
+
+        gap: 10px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+    }
+
+    .hero h1 {
+
+        font-size: 35px;
+
+    }
+
+    .hero p {
+
+        font-size: 16px;
+
+    }
+
+    #searchInput {
+
+        width: 100%;
+
+    }
+
 }
     
  
