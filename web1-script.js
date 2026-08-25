@@ -121,4 +121,58 @@ borrowButtons.forEach(function (button) {
             button.textContent = "Borrowed";
 
             button.style.backgroundColor = "#777";
-                }else{
+                }else{            borrowedBooks--;
+
+            button.textContent = "Borrow";
+
+            button.style.backgroundColor = "#5b4636";
+
+        }
+
+        borrowedCount.textContent = borrowedBooks;
+
+    });
+
+});
+
+// Favorite Books
+
+const favoriteButtons =
+
+    document.querySelectorAll(".favorite-btn");
+
+favoriteButtons.forEach(function (button) {
+
+    button.addEventListener("click", function () {
+
+        button.classList.toggle("favorite");
+
+        if (button.textContent === "♡") {
+
+            button.textContent = "♥️";
+
+        } else {
+
+            button.textContent = "♡";
+
+        }
+
+    });
+
+});
+
+// Dark Mode
+
+const darkModeBtn =
+
+    document.getElementById("darkModeBtn");
+
+darkModeBtn.addEventListener("click", function () {
+
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+
+        darkModeBtn.textContent = "☀️";
+
+    } else {
